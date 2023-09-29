@@ -1,0 +1,12 @@
+Buenos Dias/Tardes Roger
+Te adjunto en el archivo comprimido los bocetos del wareframe del index tanto para PX como para Movil. Este último he puesto la imagen principal y despues el scroll.
+
+Me he encontrado con muchos problemas a la hora de moverl las imagenes, hasta el punto de descartar haber puesto un logo en el header. Se me desconpensaba por todos los lados. TEngo que repasar la clase de flexbox y tb la de estructuras de cajas, parecia facil y luego se me ha complicado la cosa.
+
+En el proyecto he dejado las líneas tachadas así como los comentarios, se aprecia el desarrollo y el cacao que he tenido en algún momento.
+He comprobado los enlaces y van bien, de unas páginas a otras.
+
+Estoy contento con el resultado siendo la primera página que programo pero al verla si es verdad que parece amateur. Tengo que seguir desarrollando habilidades.
+
+Gracias por la corrección 
+Alberto Reina
