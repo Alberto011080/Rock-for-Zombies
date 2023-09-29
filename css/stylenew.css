@@ -988,7 +988,7 @@ justify-content: center;
         width: 70%;
     }
     .navbar{
-        z-index: -1;
+        z-index: 1;
     }
 
     }
