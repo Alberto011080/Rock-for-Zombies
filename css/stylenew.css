@@ -1161,3 +1161,29 @@ justify-content: center;
         height: 350px;
         
     }
+
+
+
+
+
+
+
+    /*!----------------------PAGINA SETENTA-----------------------*/
+
+    .enlacesmusicales div{
+        display: flex;
+        justify-content: space-around;
+    }
+    .enlacesmusicalesuno{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .enlacesmusicalesdos{
+        display: flex;
+        flex-direction:column;
+    }
+    .enlacesmusicalesuno a{
+        background-color:  rgb(69, 156, 156);
+        color: white;
+    }
