@@ -891,7 +891,7 @@ justify-content: center;
 
 /*----------------HASTA AQUI LA PAGINA ZOMBIEROCK DADDY--------------------------*/
 
-/*!------------------------------MEDIA QUERYS---------------------------------------------------------*/
+/*!------------------------------MEDIA QUERYS- ----768px--------------------------------------------------------*/
 
 @media screen and (max-width: 768px){
 
@@ -987,13 +987,14 @@ justify-content: center;
     .acordeon{
         width: 70%;
     }
-    .navbar{
+    /* .navbar{
         z-index: 1;
-    }
+    } */
+    /*----------------no funciona los enlaces si ponemos zindex con boostrap y github-----*/
 
     }
 
-/*!-------------------------------------------------------MEDIA QUERIE---------------------------*/
+/*!-------------------------------------------------------MEDIA QUERIE 360---------------------------*/
 
     @media screen and (max-width: 360px){
         .hero{
@@ -1142,9 +1143,21 @@ justify-content: center;
         .acordeon{
             width: 70%;
         }
-        .navbar{
+        /* .navbar{
             z-index: 1;
-        }
+        } */
         
     }
 
+
+    /*!--------------------------PAGINA ERAS.HTML------------------------------------*/
+
+    .carousel-inner div img{
+        height: 500px;
+        background-size:cover;
+        background-position: center;
+    }
+    .carousel-itemactive {
+        height: 350px;
+        
+    }
