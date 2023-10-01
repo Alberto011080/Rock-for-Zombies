@@ -1174,11 +1174,16 @@ justify-content: center;
         display: flex;
         justify-content: space-around;
     }
+    .enlacesmusicales div div a:hover{
+        color: #e61a1a;
+        text-shadow: 3px 3px 6px;
+    }
     .enlacesmusicales p{
         font-size: 40px;
         font-weight: 600;
         padding-top: 50px;
         color: #e61a1a;
+        text-shadow: 1px 1px 30px;
     }
     .enlacesmusicalesuno{
         display: flex;
