@@ -976,7 +976,138 @@ justify-content: center;
 
 /*----------------HASTA AQUI LA PAGINA ZOMBIEROCK DADDY--------------------------*/
 
-/*!------------------------------MEDIA QUERYS- ----768px--------------------------------------------------------*/
+
+
+    /*!--------------------------PAGINA ERAS.HTML------------------------------------*/
+
+    .carousel-inner div img{
+        height: 500px;
+        background-size:cover;
+        background-position: center;
+    }
+    .carousel-itemactive {
+        height: 350px;
+        
+    }
+
+
+
+
+
+
+
+    /*!----------------------PAGINA SETENTA-----------------------*/
+
+    .enlacesmusicales div{
+        display: flex;
+        justify-content: space-around;
+    }
+    .enlacesmusicales div div a:hover{
+        color: #e61a1a;
+        text-shadow: 3px 3px 6px;
+    }
+    .enlacesmusicales p{
+        font-size: 40px;
+        font-weight: 600;
+        padding-top: 50px;
+        color: #e61a1a;
+        text-shadow: 1px 1px 30px;
+    }
+    .enlacesmusicalesuno{
+        display: flex;
+        flex-direction: column;
+   
+    }
+
+    .enlacesmusicalesdos{
+        display: flex;
+        flex-direction:column;
+    }
+    .enlacesmusicalesuno a{
+        /* background-color:  rgb(69, 156, 156); */
+        color: transparent;
+        font-size: 40px;
+        text-decoration: none;
+        -webkit-text-stroke: 1px red;
+        padding-top: 15px;
+
+    }
+
+    .enlacesmusicalesdos a{
+        /* background-color:  rgb(69, 156, 156); */
+        color: transparent;
+        font-size: 40px;
+        text-decoration: none;
+        -webkit-text-stroke: 1px red;
+        padding-top: 15px;
+    }
+    .cuerposetenta{
+        display: flex;
+    }
+    .descripcionsetenta{
+        width: 1000px;
+        text-align:justify;
+        margin: 10px 50px 20px 50px
+    }
+    .fotosentetauno{
+        float: left;
+        border-radius: 5px;
+        box-shadow: 3px 3px 9px 0;
+        margin: 5px;
+    }
+    .fotosentetados{
+        float: right;
+        border-radius: 5px;
+        box-shadow: 3px 3px 9px 0;
+        margin: 5px;
+    }
+    .fotosentetatres{
+        float: left;
+        border-radius: 5px;
+        box-shadow: 3px 3px 9px 0;
+        margin: 5px;
+    }
+    .fotosentetacuatro{
+        float: right;
+        border-radius: 5px;
+        box-shadow: 3px 3px 9px 0;
+        margin: 5px;
+    }
+    .fotosentetacinco{
+        float: left;
+        border-radius: 5px;
+        box-shadow: 3px 3px 9px 0;
+        margin: 5px;
+    }
+    .postersetenta{
+        padding-top: 100px;        
+    }
+    .postersetenta img{
+        box-shadow: 3px 3px 9px 0;
+    }
+
+    .carousel-item img{
+        border-radius: 100px 100px 10px 10px;
+        box-shadow: 50px 9px 30px 0;
+        margin-bottom: 70px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*!------------------------------MEDIA QUERYS- ----768px--------------------------------------------------------*/
 
 @media screen and (max-width: 768px){
 
@@ -1092,10 +1223,6 @@ justify-content: center;
 
 
 
-
-
-
-
     }
     
 
@@ -1111,7 +1238,7 @@ justify-content: center;
     } */
     /*----------------no funciona los enlaces si ponemos zindex con boostrap y github-----*/
 
-    }
+
 
 /*!-------------------------------------------------------MEDIA QUERIE 360---------------------------*/
 
@@ -1284,6 +1411,55 @@ justify-content: center;
             display: flex;
             flex-direction: row;
         }
+/*---------------------------------------------------MEDIA QUERY ROCK----------------------*/
+
+        .rockgallery .primer-item{
+            display: none;
+        }
+        .rockgallery .segundo-item{
+            grid-area: dos;
+            display: none;
+
+        }
+        .rockgallery .tercer-item{
+            display: none;
+            
+        }
+        .rockgallery .cuarto-item{
+            grid-area: cuatro;
+            display: none;
+        }
+        .rockgallery .quinto-item{
+            grid-area: cinco;
+        }
+        .rockgallery .sexto-item{
+            grid-area: seis;
+        }
+        .rockgallery .septimo-item{
+            grid-area: siete;
+        }
+        .rockgallery .octavo-item{
+            grid-area: ocho;
+        }
+        .rockgallery .noveno-item{
+            grid-area: nueve;
+        }
+        .rockgallery .decimo-item{
+            grid-area: diez;
+        }
+        .rockgallery .decimoprimer-item{
+            grid-area: once;
+        }
+        .rockgallery .decimosegunto-item{
+            grid-area: doce;
+        }
+        .rockgallery{
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 500px;
+        }
 
 
 
@@ -1292,113 +1468,5 @@ justify-content: center;
 
 
 
-    }
 
-
-    /*!--------------------------PAGINA ERAS.HTML------------------------------------*/
-
-    .carousel-inner div img{
-        height: 500px;
-        background-size:cover;
-        background-position: center;
-    }
-    .carousel-itemactive {
-        height: 350px;
-        
-    }
-
-
-
-
-
-
-
-    /*!----------------------PAGINA SETENTA-----------------------*/
-
-    .enlacesmusicales div{
-        display: flex;
-        justify-content: space-around;
-    }
-    .enlacesmusicales div div a:hover{
-        color: #e61a1a;
-        text-shadow: 3px 3px 6px;
-    }
-    .enlacesmusicales p{
-        font-size: 40px;
-        font-weight: 600;
-        padding-top: 50px;
-        color: #e61a1a;
-        text-shadow: 1px 1px 30px;
-    }
-    .enlacesmusicalesuno{
-        display: flex;
-        flex-direction: column;
-   
-    }
-
-    .enlacesmusicalesdos{
-        display: flex;
-        flex-direction:column;
-    }
-    .enlacesmusicalesuno a{
-        /* background-color:  rgb(69, 156, 156); */
-        color: transparent;
-        font-size: 40px;
-        text-decoration: none;
-        -webkit-text-stroke: 1px red;
-        padding-top: 15px;
-
-    }
-
-    .enlacesmusicalesdos a{
-        /* background-color:  rgb(69, 156, 156); */
-        color: transparent;
-        font-size: 40px;
-        text-decoration: none;
-        -webkit-text-stroke: 1px red;
-        padding-top: 15px;
-    }
-    .cuerposetenta{
-        display: flex;
-    }
-    .descripcionsetenta{
-        width: 1000px;
-        text-align:justify;
-        margin: 10px 50px 20px 50px
-    }
-    .fotosentetauno{
-        float: left;
-        border-radius: 5px;
-        box-shadow: 3px 3px 9px 0;
-        margin: 5px;
-    }
-    .fotosentetados{
-        float: right;
-        border-radius: 5px;
-        box-shadow: 3px 3px 9px 0;
-        margin: 5px;
-    }
-    .fotosentetatres{
-        float: left;
-        border-radius: 5px;
-        box-shadow: 3px 3px 9px 0;
-        margin: 5px;
-    }
-    .fotosentetacuatro{
-        float: right;
-        border-radius: 5px;
-        box-shadow: 3px 3px 9px 0;
-        margin: 5px;
-    }
-    .fotosentetacinco{
-        float: left;
-        border-radius: 5px;
-        box-shadow: 3px 3px 9px 0;
-        margin: 5px;
-    }
-    .postersetenta{
-        padding-top: 100px;        
-    }
-    .postersetenta img{
-        box-shadow: 3px 3px 9px 0;
     }
