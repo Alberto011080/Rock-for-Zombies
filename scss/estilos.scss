@@ -1,6 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
+@import "./bases/variables";
+@import "./bases/generales";
+@import "./components/mainindex";
+@import "./components/mainrock";
+@import "./components/maineras";
+@import "./components/mainsetenta";
+@import "./components/mainochenta";
+@import "./components/mainnoventa";
+@import "./components/maindosmil";
+@import "./components/mainzombiedaddy";
+@import "./components/maincontactos";
+@import "./bases/mediaquery";

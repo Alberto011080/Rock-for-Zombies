@@ -1,0 +1,61 @@
+.rockgallery{
+    display: grid ;
+    grid-auto-rows: 80px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    width: 80%;
+    margin-left: 30px;
+    height: 90vh;
+    padding-top: 150px;
+
+    div{
+        text-align: center;
+    }
+    .primer-item{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .segundo-item{
+        grid-column-start:2 ;
+        grid-column-end:4 ;
+        box-shadow:  1px 1px 10px 0 black;
+    }
+    .tercer-item{
+        img{
+            position: absolute;
+            top: 230px;
+            left: 925px;
+        }
+    }
+
+    .cuarto-item{
+        grid-column-start:2 ;
+        grid-column-end:5 ;
+        font-size: 60px;
+        color: #e61a1a;
+        font-weight: 600;
+        -webkit-text-stroke: 1px black;
+        p{
+            text-align: left;
+            &:hover{
+                font-weight: 600;
+                -webkit-text-stroke: 1px black;
+                color: transparent;
+                text-align: left ;
+            }
+        }
+    }
+    .quinto-item{
+        img{
+            background-size:cover;
+            background-position: center;
+        }
+    }
+    .noveno-item{
+        img{
+            padding-bottom: 5px;
+            padding-top: 0;
+        }
+    }
+    
+}

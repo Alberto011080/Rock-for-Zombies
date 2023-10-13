@@ -22,74 +22,6 @@
     color: black;
 }
 
-
-
-
-/* header { */
-    /* background-color: aqua; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* height: 210px; */
-    /* margin-bottom: 15px; */
-  
-/* } */
-
-/* .logoheader{
-    width: 30%;
-} */
-
-/* 
-.navheader {
-    display: flex;
-    flex-direction: column;
-    padding-top: 0;
-
-
-}
-
-.navheader div {
-    padding-top: 0;
-}
-
-.navheader div h1 {
-    text-align: center;
-    font-size: 70px;
-    padding-top: 0;
-
-}
-
-.navheader div h1 a {
-    text-decoration: none;
-    color: #e61a1a;
-
-
-
-}
-
-.navheader div ul {
-    display: flex;
-    list-style: none;
-    padding-top: 0;
-}
-
-.navheader div ul li a {
-    text-decoration: none;
-    margin-left: 15px;
-    color: black;
-
-
-}
-
-.lista {
-    padding-bottom: 10px;
-    padding-top: 0;
-} */
-
-
-
-
-
 /*----------------------------------------MAIN---------------------------*/
 
 .hero {
@@ -102,8 +34,6 @@
     display: flex;
     text-align: center;
     flex-direction: column;
-    /* justify-content: center; */
-    /* padding-top: 30px; */
     box-shadow: 0px 15px 25px 5px rgba(0, 0, 0, 0.30);
     filter: drop-shadow(0px 1px 1px);
     margin-bottom: 20px;
@@ -192,7 +122,6 @@ section h2 {
 /*-------------------------mMOVIMIENTOSSSS!!!---------------------*/
 
 .movimientos {
-    /* background-color: aquamarine; */
     height: 90vh;
     padding-top: 30px;
     margin-bottom: 100px;
@@ -207,10 +136,6 @@ section h2 {
     justify-content: space-evenly;
 }
 
-/* .etiquetas div{
-    border: 1px solid black;
-
-} */
 .etiquetas div h3 {
     text-align: center;
 }
@@ -246,47 +171,6 @@ section h2 {
 
 /*!--------------FOOTER ANTIGUO-----------------------*/
 
-/* footer {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    /* align-content:flex-start; */
-    /*no vale para nada */
-    /* background-color: darkseagreen; 
-    
-}
-
-/* .logofooter div img{
-    box-shadow: 10px 5px 8px 0 black;
-} */ 
-/* 
-.footer div h1 {
-    font-size: 70px;
-    text-align: center;
-    /* color: #e61a1a; *
-
-
-}
-
-.footer div a {
-    text-decoration: none;
-    color: #e61a1a;
-
-}
-
-.listafooter ul {
-    display: flex;
-} */
-/* 
-.listafooter ul a {
-    color: black;
-}
-
-.listafooter ul li {
-    list-style: none;
-    margin-right: 20px;
-} */
 
 
 /*!---------------------------------HASTA AQUI EL INDEX----------------------------
@@ -309,7 +193,7 @@ section h2 {
     color: #e61a1a;
 }
 
-.detalles div, button{
+.detalles div button{
     margin: 8px;
 }
 .detalles div label{
@@ -367,7 +251,7 @@ section h2 {
 
 .zombiefloat{
     padding-left: 20px;
-    width: 600px
+    width: 600px;
 }
 .zombiefloat img{
     width: 150px;
@@ -386,7 +270,10 @@ section h2 {
     border-radius: 5px;
 }
 .mapazombie{
-    width: 500px;
+    float: right;
+    margin: 3px;
+    box-shadow: 4px 4px 6px 0;
+    border-radius: 5px;
 }
 .mapazombie iframe{
     width: 300px;
@@ -406,7 +293,7 @@ section h2 {
 
 /*----------------------------rock gallery----------------------------------*/
 .rockgallery{
-    /* border: solid 1px rgb(3, 79, 3); */
+ 
     display: grid ;
     grid-auto-rows: 80px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -420,8 +307,6 @@ section h2 {
 }
 
 .rockgallery div{
-    /* background-color: cadetblue;
-    border: 2px solid black; */
    
     text-align: center;
 }
@@ -491,8 +376,6 @@ section h2 {
 .aprende{
     text-align: center;
     font-size: 40px;
-    /* text-shadow: black 10px 10px 10px 0px; */
-    /*-----No sé por qué no me coje la sombra del texto----------*/
     color: #e61a1a;
     font-weight: 900;
     padding-top: 5px;
@@ -525,7 +408,6 @@ margin-bottom: 75px;
 .tarjeta0101{
     width: 296px;
     height: 168px;
-
     border-radius: 10px;
     background-image: url(https://imagenes.elpais.com/resizer/cGNo_HonnlTVLhwAP47Fjxkbb2Y=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/U7HLAKOWTBH6HJK6VPCYRLUSMM.jpg);  
     background-position: center;
@@ -653,6 +535,9 @@ margin-bottom: 75px;
     font-size: 20px;
 }
 
+
+
+
 .tarjeta0202{
     display: flex;
     align-items: center;
@@ -676,7 +561,7 @@ margin-bottom: 75px;
 
 
 .tarjeta03{
-    /* background-color: blueviolet; */
+
     border: solid 2px black;
     width: 300px;
     height: 450px;

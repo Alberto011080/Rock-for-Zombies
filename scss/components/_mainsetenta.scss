@@ -1,0 +1,89 @@
+.enlacesmusicales{
+
+    div{
+        display: flex;
+        justify-content: space-around;
+        .enlacesmusicalesuno{
+            display: flex;
+            flex-direction: column;
+            a{
+                color: transparent;
+                font-size: 40px;
+                text-decoration: none;
+                -webkit-text-stroke: 1px red;
+                padding-top: 15px;
+                &:hover{
+                    color: #e61a1a;
+                    text-shadow: 3px 3px 6px;
+                }
+
+            }
+            p{
+                font-size: 40px;
+                font-weight: 600;
+                padding-top: 50px;
+                color: #e61a1a;
+                text-shadow: 1px 1px 30px;
+            }
+        }
+        .enlacemusicalesdos{
+            display: flex;
+            flex-direction:column;
+            a{
+                color: transparent;
+                font-size: 40px;
+                text-decoration: none;
+                -webkit-text-stroke: 1px red;
+                padding-top: 15px;
+            }
+
+        }
+
+
+    }
+}
+
+.cuerposetenta{
+    display: flex;
+    .descripcionsetenta{
+        width: 1000px;
+        text-align:justify;
+        margin: 10px 50px 20px 50px;
+        .fotosentetauno{
+            float: left;
+            border-radius: 5px;
+            box-shadow: 3px 3px 9px 0;
+            margin: 5px;
+        }
+        .fotosentetados{
+            float: right;
+            border-radius: 5px;
+            box-shadow: 3px 3px 9px 0;
+            margin: 5px;
+        }
+        .fotosentetatres{
+            float: left;
+            border-radius: 5px;
+            box-shadow: 3px 3px 9px 0;
+            margin: 5px;
+        }
+        .fotosentetacuatro{
+            float: right;
+            border-radius: 5px;
+            box-shadow: 3px 3px 9px 0;
+            margin: 5px;
+        }
+        .fotosentetacinco{
+            float: left;
+            border-radius: 5px;
+            box-shadow: 3px 3px 9px 0;
+            margin: 5px;
+        }
+    }
+    .postersetenta{
+        padding-top: 100px;       
+        img{
+            box-shadow: 3px 3px 9px 0;
+        }
+    }
+}

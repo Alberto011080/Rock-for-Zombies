@@ -31,3 +31,87 @@
             }
         }
 }
+
+.todocambiohero{
+    h2{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .primertramo{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 350px;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: 20px 10px 10px 0 rgba(0, 0, 0, 0.30);
+            margin-left: 150px;
+        }
+        p{
+            text-align: center;
+            text-shadow: 1px 1px 10px black;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    }
+    .segundotramo{
+        display: flex;
+        height: 300px;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        p{
+            text-align: center;
+            text-shadow: 1px 1px 10px black;
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+        img{
+            width: 350px;
+            height: 200px;
+            border-radius: 8px;
+            box-shadow: -30px 10px 10px 0 rgba(0, 0, 0, 0.30);
+            margin-right: 150px;
+            display: inline-block;
+        }
+    }
+}
+
+.movimientos{
+    height: 90vh;
+    padding-top: 30px;
+    margin-bottom: 100px;
+    h2{
+        margin-bottom: 30px;
+    }
+    .etiquetas{
+        display: flex;
+        justify-content: space-evenly;
+        .dosflex{
+            div{
+                img{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 5%;
+                    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.30);
+                    border: 1px solid black;
+                }
+                h3{
+                    text-align: center;  
+                }
+                a{
+                    text-decoration: none;
+                    margin-left: 55px;
+                    margin-top: 5px;
+                    background-color: rgb(69, 156, 156);
+                    color: rgb(255, 255, 255);
+                    border-radius: 5px;
+                }
+            }
+        }
+
+    }
+}
