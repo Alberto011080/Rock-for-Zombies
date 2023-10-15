@@ -1,348 +1,352 @@
-.aprendemain{
-    .aprende{
-        text-align: center;
-        font-size: 40px;
-        color: #e61a1a;
-        font-weight: 900;
-        padding-top: 5px;
-    }
-    .aprendizajezombie{
-        padding-top: 30px;
-        margin: 20px;
-        height: 1000px;
-        background: linear-gradient(to right, rgba(127, 255, 212, 0.233), white);
-        display: flex;
-        justify-content:space-around ;
-        flex-wrap: wrap;
-        margin-bottom: 75px;
-        .divisionzombie{
-            margin: 10px;
-            .tarjeta01{
-                background-color: white;
-                border: solid 2px black;
-                width: 300px;
-                height: 450px;
-                border-radius: 5%;
-                box-shadow: 3px 5px 20px 1px;
-                margin: 5px;
-                .tarjeta0101{
-                    width: 296px;
-                    height: 168px;
-                    border-radius: 10px;
-                    background-image: url(https://imagenes.elpais.com/resizer/cGNo_HonnlTVLhwAP47Fjxkbb2Y=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/U7HLAKOWTBH6HJK6VPCYRLUSMM.jpg);  
-                    background-position: center;
-                    background-size: cover;
+
+.aprende{
+    text-align: center;
+    font-size: 40px;
+    color: #e61a1a;
+    font-weight: 900;
+    padding-top: 5px;
+}
+.aprendizajezombie{
+    padding-top: 30px;
+    margin: 20px;
+    height: 1000px;
+    background: linear-gradient(to right, rgba(127, 255, 212, 0.233), white);
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    margin-bottom: 75px;
+    .divisionzombie{
+        margin: 10px;
+        .tarjeta01{
+            background-color: white;
+            border: solid 2px black;
+            width: 300px;
+            height: 450px;
+            border-radius: 5%;
+            box-shadow: 3px 5px 20px 1px;
+            margin: 5px;
+            .tarjeta0101{
+                width: 296px;
+                height: 168px;
+                border-radius: 10px;
+                background-image: url(https://imagenes.elpais.com/resizer/cGNo_HonnlTVLhwAP47Fjxkbb2Y=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/U7HLAKOWTBH6HJK6VPCYRLUSMM.jpg);  
+                background-position: center;
+                background-size: cover;
+                h3{
+                    padding: 50px;
+                    color: white;
+                    text-align: center;
+                }
+
+            }
+            .tarjeta0201{
+                display: flex;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: center;
+                    padding-left: 3px;
                     h3{
-                        padding: 50px;
-                        color: white;
-                        text-align: center;
+                        font-size: 20px;
                     }
-
-                }
-                .tarjeta0201{
-                    display: flex;
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: start;
-                        justify-content: center;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 20px;
-                        }
-                        p{
-                            font-size: 14px;
-                        }
-                    }
-                    a{
-                        img{
-                            width: 82px;
-                            height: 82px;
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-
-                }
-                .tarjeta0301{
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: start;
-                    margin: 3px;
-                    a{
-                        img{
-                            width: 82px;
-                            height: 82px;
-                            border-radius: 10px;
-                        }
-                    }
-                    div{
-                        flex-direction: column;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 20px;
-                        }
-                        p{
-                            font-size: 14px;
-                        }
+                    p{
+                        font-size: 14px;
                     }
                 }
-                .tarjeta0401{
-                    display: flex;
-                    div{
-                        align-items: center;
-                        justify-items: start;
+                a{
+                    img{
+                        width: 82px;
+                        height: 82px;
                         margin: 3px;
-                        flex-direction: column;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 20px;
-                        }
+                        border-radius: 10px;
                     }
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
+                }
 
+            }
+            .tarjeta0301{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: start;
+                margin: 3px;
+                a{
+                    img{
+                        width: 82px;
+                        height: 82px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    flex-direction: column;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
                 }
             }
-            .tarjeta02{
-                background-color: white;
-                border: solid 2px black;
-                width: 300px;
-                height: 450px;
-                border-radius: 5%;
-                box-shadow: 3px 5px 20px 1px;
-                .tarjeta0102{
-                    display: flex;
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: start;
-                        justify-content: center;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 20px;
-                        }
-                    }
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-                }
-                .tarjeta0202{
-                    display: flex;
+            .tarjeta0401{
+                display: flex;
+                div{
                     align-items: center;
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: start;
-                        justify-content: start;
-                        align-content: center;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 22px;
-                        }
+                    justify-items: start;
+                    margin: 3px;
+                    flex-direction: column;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 20px;
                     }
                 }
-                .tarjeta0302{
-                    display: flex;
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
                     }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        h3{
-                            font-size: 25px;
-                        }
+                }
+
+            }
+        }
+        .tarjeta02{
+            background-color: white;
+            border: solid 2px black;
+            width: 300px;
+            height: 450px;
+            border-radius: 5%;
+            box-shadow: 3px 5px 20px 1px;
+            .tarjeta0102{
+                display: flex;
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: center;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
                     }
                 }
             }
-            .tarjeta03{
-                border: solid 2px black;
-                width: 300px;
-                height: 450px;
-                border-radius: 5%;
-                background-color: white;
-                border: solid 2px black;
-                width: 300px;
-                height: 450px;
-                border-radius: 5%;
-                box-shadow: 3px 5px 20px 1px;
-                margin: 5px;
-                .tarjeta0103{
-                    width: 296px;
-                    height: 166px;
-                    border-radius: 13px 13px 10px 10px;
-                    background-image: url(https://static.spin.com/files/131009-Nirvana.jpg);  
-                    background-position: center;
-                    background-size: cover;
+            .tarjeta0202{
+                display: flex;
+                align-items: center;
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: start;
+                    align-content: center;
+                    padding-left: 3px;
                     h3{
-                        font-size: 30px;
-                        padding: 50px;
-                        color: white;
-                        text-align: center;
-                    }
-                }
-                .tarjeta0203{
-                    display: flex;                   
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: start;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 24px;
-                        }
-                    }
-                }
-            
-                .tarjeta0303{
-                    display: flex;
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: start;
-                        padding-top: 8px;
-                        h3{
-                           font-size: 25px;
-                        }
-                    }
-                }
-                .tarjeta0403{
-                    display: flex;
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: start;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 22px;
-                        }
+                        font-size: 22px;
                     }
                 }
             }
-            .tarjeta04{
-                background-color: white;
-                border: solid 2px black;
-                width: 300px;
-                height: 450px;
-                border-radius: 5%;
-                border: solid 2px black;
-                box-shadow: 3px 5px 20px 1px;
-                .tarjeta0104{
-                    background-image: url(https://www.ultimate-guitar.com/static/article/news/9/46519_0_wide_ver0.jpg);
-                    width: 296px;
-                    height: 166px;
-                    border-radius: 13px 13px 10px 10px;
-                    background-position: center;
-                    background-size: cover;
+            .tarjeta0302{
+                display: flex;
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                     h3{
-                        font-size: 30px;
-                        padding: 50px;
-                        color: white;
-                        text-align: center;
-                    }    
-                }
-                .tarjeta0204{
-                    display: flex;
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: start;
-                        padding-top: 10px;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 20px;
-                        }
-                    }
-                }
-                .tarjeta0304{
-                    display: flex;
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px;
-                        }
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: start;
-                        padding-top: 10px;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 20px;
-                        }
-                    }
-                }
-                .tarjeta0404{
-                    display: flex;
-                    a{
-                        img{
-                            margin: 3px;
-                            border-radius: 10px; 
-                        }
-                    }
-                    div{
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: start;
-                        padding-top: 10px;
-                        padding-left: 3px;
-                        h3{
-                            font-size: 15px;
-                        }
+                        font-size: 25px;
                     }
                 }
             }
         }
-        
+       
     }
+
+    .divisionzombieDos{
+        margin: 10px;
+        .tarjeta03{
+            border: solid 2px black;
+            width: 300px;
+            height: 450px;
+            border-radius: 5%;
+            background-color: white;
+            border: solid 2px black;
+            width: 300px;
+            height: 450px;
+            border-radius: 5%;
+            box-shadow: 3px 5px 20px 1px;
+            margin: 5px;
+            .tarjeta0103{
+                width: 296px;
+                height: 166px;
+                border-radius: 13px 13px 10px 10px;
+                background-image: url(https://static.spin.com/files/131009-Nirvana.jpg);  
+                background-position: center;
+                background-size: cover;
+                h3{
+                    font-size: 30px;
+                    padding: 50px;
+                    color: white;
+                    text-align: center;
+                }
+            }
+            .tarjeta0203{
+                display: flex;                   
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 24px;
+                    }
+                }
+            }
+        
+            .tarjeta0303{
+                display: flex;
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    padding-top: 8px;
+                    h3{
+                        font-size: 25px;
+                    }
+                }
+            }
+            .tarjeta0403{
+                display: flex;
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+        .tarjeta04{
+            background-color: white;
+            border: solid 2px black;
+            width: 300px;
+            height: 450px;
+            border-radius: 5%;
+            border: solid 2px black;
+            box-shadow: 3px 5px 20px 1px;
+            .tarjeta0104{
+                background-image: url(https://www.ultimate-guitar.com/static/article/news/9/46519_0_wide_ver0.jpg);
+                width: 296px;
+                height: 166px;
+                border-radius: 13px 13px 10px 10px;
+                background-position: center;
+                background-size: cover;
+                h3{
+                    font-size: 30px;
+                    padding: 50px;
+                    color: white;
+                    text-align: center;
+                }    
+            }
+            .tarjeta0204{
+                display: flex;
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    padding-top: 10px;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .tarjeta0304{
+                display: flex;
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px;
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    padding-top: 10px;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .tarjeta0404{
+                display: flex;
+                a{
+                    img{
+                        margin: 3px;
+                        border-radius: 10px; 
+                    }
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+                    padding-top: 10px;
+                    padding-left: 3px;
+                    h3{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    
 }

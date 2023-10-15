@@ -227,21 +227,24 @@
       .enlacesmusicales div .enlacesmusicalesuno a:hover {
         color: #e61a1a;
         text-shadow: 3px 3px 6px; }
-    .enlacesmusicales div .enlacesmusicalesuno p {
-      font-size: 40px;
-      font-weight: 600;
-      padding-top: 50px;
-      color: #e61a1a;
-      text-shadow: 1px 1px 30px; }
-  .enlacesmusicales div .enlacemusicalesdos {
+  .enlacesmusicales div div p {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 50px;
+    color: #e61a1a;
+    text-shadow: 1px 1px 30px; }
+  .enlacesmusicales div .enlacesmusicalesdos {
     display: flex;
     flex-direction: column; }
-    .enlacesmusicales div .enlacemusicalesdos a {
+    .enlacesmusicales div .enlacesmusicalesdos a {
       color: transparent;
       font-size: 40px;
       text-decoration: none;
       -webkit-text-stroke: 1px red;
       padding-top: 15px; }
+      .enlacesmusicales div .enlacesmusicalesdos a:hover {
+        color: #e61a1a;
+        text-shadow: 3px 3px 6px; }
 
 .cuerposetenta {
   display: flex; }
@@ -279,14 +282,14 @@
     .cuerposetenta .postersetenta img {
       box-shadow: 3px 3px 9px 0; }
 
-.aprendemain .aprende {
+.aprende {
   text-align: center;
   font-size: 40px;
   color: #e61a1a;
   font-weight: 900;
   padding-top: 5px; }
 
-.aprendemain .aprendizajezombie {
+.aprendizajezombie {
   padding-top: 30px;
   margin: 20px;
   height: 1000px;
@@ -295,9 +298,9 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 75px; }
-  .aprendemain .aprendizajezombie .divisionzombie {
+  .aprendizajezombie .divisionzombie {
     margin: 10px; }
-    .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 {
+    .aprendizajezombie .divisionzombie .tarjeta01 {
       background-color: white;
       border: solid 2px black;
       width: 300px;
@@ -305,111 +308,113 @@
       border-radius: 5%;
       box-shadow: 3px 5px 20px 1px;
       margin: 5px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0101 {
+      .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0101 {
         width: 296px;
         height: 168px;
         border-radius: 10px;
         background-image: url(https://imagenes.elpais.com/resizer/cGNo_HonnlTVLhwAP47Fjxkbb2Y=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/U7HLAKOWTBH6HJK6VPCYRLUSMM.jpg);
         background-position: center;
         background-size: cover; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0101 h3 {
+        .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0101 h3 {
           padding: 50px;
           color: white;
           text-align: center; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 {
+      .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 div {
+        .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 div {
           display: flex;
           flex-direction: column;
           align-items: start;
           justify-content: center;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 div h3 {
+          .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 div h3 {
             font-size: 20px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 div p {
+          .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 div p {
             font-size: 14px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 a img {
+        .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0201 a img {
           width: 82px;
           height: 82px;
           margin: 3px;
           border-radius: 10px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 {
+      .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: start;
         margin: 3px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 a img {
+        .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 a img {
           width: 82px;
           height: 82px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 div {
+        .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 div {
           flex-direction: column;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 div h3 {
+          .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 div h3 {
             font-size: 20px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 div p {
+          .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0301 div p {
             font-size: 14px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 {
+      .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 div {
+        .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 div {
           align-items: center;
           justify-items: start;
           margin: 3px;
           flex-direction: column;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 div h3 {
+          .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 div h3 {
             font-size: 20px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 a img {
+        .aprendizajezombie .divisionzombie .tarjeta01 .tarjeta0401 a img {
           margin: 3px;
           border-radius: 10px; }
-    .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 {
+    .aprendizajezombie .divisionzombie .tarjeta02 {
       background-color: white;
       border: solid 2px black;
       width: 300px;
       height: 450px;
       border-radius: 5%;
       box-shadow: 3px 5px 20px 1px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 {
+      .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 div {
+        .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 div {
           display: flex;
           flex-direction: column;
           align-items: start;
           justify-content: center;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 div h3 {
+          .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 div h3 {
             font-size: 20px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 a img {
+        .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 a img {
           margin: 3px;
           border-radius: 10px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 {
+      .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 {
         display: flex;
         align-items: center; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 a img {
+        .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 div {
+        .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 div {
           display: flex;
           flex-direction: column;
           align-items: start;
           justify-content: start;
           align-content: center;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 div h3 {
+          .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0202 div h3 {
             font-size: 22px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 {
+      .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 a img {
+        .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 div {
+        .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 div {
           display: flex;
           flex-direction: column;
           justify-content: center; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 div h3 {
+          .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0302 div h3 {
             font-size: 25px; }
-    .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 {
+  .aprendizajezombie .divisionzombieDos {
+    margin: 10px; }
+    .aprendizajezombie .divisionzombieDos .tarjeta03 {
       border: solid 2px black;
       width: 300px;
       height: 450px;
@@ -421,58 +426,58 @@
       border-radius: 5%;
       box-shadow: 3px 5px 20px 1px;
       margin: 5px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0103 {
+      .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0103 {
         width: 296px;
         height: 166px;
         border-radius: 13px 13px 10px 10px;
         background-image: url(https://static.spin.com/files/131009-Nirvana.jpg);
         background-position: center;
         background-size: cover; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0103 h3 {
+        .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0103 h3 {
           font-size: 30px;
           padding: 50px;
           color: white;
           text-align: center; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0203 {
+      .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0203 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0203 a img {
+        .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0203 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0203 div {
+        .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0203 div {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: start;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0203 div h3 {
+          .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0203 div h3 {
             font-size: 24px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0303 {
+      .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0303 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0303 a img {
+        .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0303 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0303 div {
+        .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0303 div {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: start;
           padding-top: 8px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0303 div h3 {
+          .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0303 div h3 {
             font-size: 25px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0403 {
+      .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0403 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0403 a img {
+        .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0403 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0403 div {
+        .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0403 div {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: start;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta03 .tarjeta0403 div h3 {
+          .aprendizajezombie .divisionzombieDos .tarjeta03 .tarjeta0403 div h3 {
             font-size: 22px; }
-    .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 {
+    .aprendizajezombie .divisionzombieDos .tarjeta04 {
       background-color: white;
       border: solid 2px black;
       width: 300px;
@@ -480,59 +485,59 @@
       border-radius: 5%;
       border: solid 2px black;
       box-shadow: 3px 5px 20px 1px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0104 {
+      .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0104 {
         background-image: url(https://www.ultimate-guitar.com/static/article/news/9/46519_0_wide_ver0.jpg);
         width: 296px;
         height: 166px;
         border-radius: 13px 13px 10px 10px;
         background-position: center;
         background-size: cover; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0104 h3 {
+        .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0104 h3 {
           font-size: 30px;
           padding: 50px;
           color: white;
           text-align: center; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0204 {
+      .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0204 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0204 a img {
+        .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0204 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0204 div {
+        .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0204 div {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: start;
           padding-top: 10px;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0204 div h3 {
+          .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0204 div h3 {
             font-size: 20px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0304 {
+      .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0304 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0304 a img {
+        .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0304 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0304 div {
+        .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0304 div {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: start;
           padding-top: 10px;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0304 div h3 {
+          .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0304 div h3 {
             font-size: 20px; }
-      .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0404 {
+      .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0404 {
         display: flex; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0404 a img {
+        .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0404 a img {
           margin: 3px;
           border-radius: 10px; }
-        .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0404 div {
+        .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0404 div {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: start;
           padding-top: 10px;
           padding-left: 3px; }
-          .aprendemain .aprendizajezombie .divisionzombie .tarjeta04 .tarjeta0404 div h3 {
+          .aprendizajezombie .divisionzombieDos .tarjeta04 .tarjeta0404 div h3 {
             font-size: 15px; }
 
 .contacto {
