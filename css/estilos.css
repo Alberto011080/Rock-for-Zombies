@@ -16,6 +16,9 @@
 .nav-item a {
   color: black; }
 
+.accordion {
+  padding-top: 50px; }
+
 .acordeon {
   width: 800px;
   height: 330px;
@@ -43,12 +46,50 @@
   background-color: #ffffff;
   color: #4b4c4d; }
 
-.footer-basic ul {
+.footer-basic footer ul {
   padding: 0;
   list-style: none;
   text-align: center;
   font-size: 18px;
   line-height: 1.6;
+  margin-bottom: 0; }
+
+.footer-basic li {
+  padding: 0 10px; }
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.footer-basic ul a:hover {
+  opacity: 1; }
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px; }
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75; }
+
+.footer-basic .social > a:hover {
+  opacity: 0.9; }
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
   margin-bottom: 0; }
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
@@ -149,19 +190,20 @@
     margin-bottom: 30px;
     text-align: center;
     font-size: 50px; }
-  .movimientos .etiquetas.nuevaclass .nuevaclass1 {
+  .movimientos .dosflex {
     display: flex;
-    justify-content: space-around;
-    margin-left: 30px; }
-    .movimientos .etiquetas.nuevaclass .nuevaclass1 div img {
+    justify-content: space-between;
+    margin-left: 30px;
+    gap: 10px; }
+    .movimientos .dosflex div img {
       width: 200px;
       height: 200px;
       border-radius: 5%;
       box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.3);
       border: 1px solid black; }
-    .movimientos .etiquetas.nuevaclass .nuevaclass1 div h3 {
+    .movimientos .dosflex div h3 {
       text-align: center; }
-    .movimientos .etiquetas.nuevaclass .nuevaclass1 div a {
+    .movimientos .dosflex div a {
       text-decoration: none;
       margin-left: 55px;
       margin-top: 5px;
@@ -211,6 +253,34 @@
   .rockgallery .noveno-item img {
     padding-bottom: 5px;
     padding-top: 0; }
+
+.movimientos {
+  height: 90vh;
+  padding-top: 30px;
+  margin-bottom: 100px; }
+  .movimientos h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px; }
+  .movimientos .etiquetas {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px; }
+  .movimientos div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid black; }
+  .movimientos div h3 {
+    text-align: center; }
+  .movimientos div a {
+    text-decoration: none;
+    margin-left: 55px;
+    margin-top: 5px;
+    background-color: #459c9c;
+    color: white;
+    border-radius: 5px; }
 
 .enlacesmusicales div {
   display: flex;
