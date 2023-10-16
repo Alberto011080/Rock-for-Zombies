@@ -20,7 +20,9 @@
             p{
                 margin-bottom: 40px;
                 font-size: 20px;
+              
             }
+
             a{
                 text-decoration: none;
                 background-color: rgba(238, 162, 127, 0.685);
@@ -38,12 +40,15 @@
         font-size: 50px;
         margin-top: 20px;
     }
-    .primerTramo{
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+}
+.primerTramo{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
         img{
+            margin: 0 auto;
             width: 350px;
             height: 200px;
             border-radius: 8px;
@@ -78,7 +83,7 @@
             display: inline-block;
         }
     }
-}
+
 
 .movimientos{
     height: 90vh;

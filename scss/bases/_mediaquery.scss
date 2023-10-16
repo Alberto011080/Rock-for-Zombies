@@ -122,12 +122,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 265px 265px; 
-        gap: 20px
-        ;      
+        gap: 20px;      
     }
     .etiquetas div{
         margin: 0 auto;
-
     }
     .etiquetas div img{
         align-content: start;
@@ -142,6 +140,7 @@
         -webkit-text-stroke: 1px #4b4c4d;
     }
 
+
     /*------MEDIA QUERY CONTACTO--------------------------*/
 
     .gifrock{
@@ -153,10 +152,10 @@
         align-items: center;
     }
 
-    }
+}
 
     
-@media (max-width: 360px){
+@media screen and (max-width: 360px){
     .hero{
         height: 100%;
         margin-bottom: 30px;
@@ -164,92 +163,79 @@
     /* .herocaja{
         display: flex;
     } */
-    .hero div h2{
+    .hero div h1{
         font-size: 30px;
     }
     .hero div p{
+        // display: none;
         font-size: 20px;
         text-align: 100%;
         justify-content: center;
     }
     .hero div a{
-
         height: 100%;
         display: inline;
         position: relative;
     }
 
-    .todocambiohero{
-    
+    .todocambiohero{   
         display: flex;
         flex-direction: column;
         width: 358px;
-
-
-
-
-    }
-    .todocambiohero h2{
-        margin-bottom: 50px;
-        font-size: 30px;
-        /* display: flex;
-        flex-direction: column; */
-        /* align-items: stretch; */
-
-    }
-
-    .primerTramo {
-
-        display: flex;
-        flex-direction: column;
-        /* width: 350px; */
-        margin-bottom: 50px;
-        /* align-content: stretch; */
-        /* justify-content: center;*/
-        /* align-content: end;  */
-        /* margin-top: 1px; */
-        /* margin-bottom: 30px; */
+        h2{
+            margin-bottom: 50px;
+            font-size: 30px;
         }
-    .primerTramo img {
-        margin: 0 auto;
-        height: 150px;
-        width: 250px;
-        border-radius: 8px;
-        box-shadow: 20px 10px 10px 0 rgba(0, 0, 0, 0.30);
-        margin-bottom: 20px;
-    } 
-    .primerTramo p {
-        text-shadow: 1px 1px 10px black; 
-        padding: 0;
-        font-size: 15px;
-        text-align: center
-    } 
+        div{
+            display: flex;
+            flex-direction: column;
+            /* width: 350px; */
+            margin-bottom: 50px;
+        }
+
+            img{
+                margin: 0 auto;
+                height: 150px;
+                width: 250px;
+                border-radius: 8px;
+                box-shadow: 20px 10px 10px 0 rgba(0, 0, 0, 0.30);
+                margin-bottom: 20px;
+            }
+            p{
+                text-shadow: 1px 1px 10px black; 
+                padding: 0;
+                font-size: 15px;
+                text-align: center 
+            }
+        }
+
+
+
+
+
     .segundoTramo {
 
         display: flex;
         flex-direction: column-reverse;
         /* width: 350px; */
         margin-bottom: 30px;
-        /* align-content: stretch; */
-        /* justify-content: center;*/
-        /* align-content: end;  */
-        /* margin-top: 1px; */
-        /* margin-bottom: 30px; */
-        }
-    .segundoTramo img {
-        margin: 0 auto;
-        height: 150px;
-        width: 250px;
-        border-radius: 8px;
-        box-shadow: 20px 10px 10px 0 rgba(0, 0, 0, 0.30);
-        margin-bottom: 20px;
-    } 
-    .segundoTramo p {
-        text-shadow: 1px 1px 10px black; 
-        padding: 0;
-        font-size: 15px;
-        text-align: center
-    } 
+
+        img {
+            margin: 0 auto;
+            height: 150px;
+            width: 250px;
+            border-radius: 8px;
+            box-shadow: 20px 10px 10px 0 rgba(0, 0, 0, 0.30);
+            margin-bottom: 20px;
+        } 
+        p {
+            text-shadow: 1px 1px 10px black; 
+            padding: 0;
+            font-size: 15px;
+            text-align: center
+        } 
+
+    }
 
 
 /**-------------------------NUEVACLAS INDEX-------------------------*/
@@ -353,7 +339,6 @@
     .enlacesmusicales div{
         display: flex;
         flex-direction: column;
-
     }
     .enlacesmusicales div div p{
         font-size: 25px;
@@ -419,11 +404,7 @@
     }
 
 /*---------------------------MEDIA QUERY ERAS-------------------------------------*/
-    /* .etiquetas{
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 265px 265px 265px 265px; 
-        gap: 20px;       */
+
     
     .etiquetas div{
         margin: 0 auto;
@@ -447,31 +428,32 @@
 /*---------------------media QUERY CONTACTO-----------------------------------*/
     .contacto{
         width: 360px;
+        .gifrock{
+            display: none;   
+        }
+        .zombieform{
+            width:300px;
+            align-items: center;
+            margin: 0 auto;
+            
+        }
 
     }
-    .zombieform{
-        width: 360px;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-
-    }
 
 
-    .gifrock{
-        display: none;
-
-    }
     .descripcionzombie{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-right: 20px;
+        .zombiefloat{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
     }
-    .zombiefloat{
-        width: 360px;
-    }
-
-
+    
 
 }
 
