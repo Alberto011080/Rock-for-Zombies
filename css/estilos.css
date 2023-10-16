@@ -445,6 +445,13 @@
       height: 450px;
       border-radius: 5%;
       box-shadow: 3px 5px 20px 1px; }
+      .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0402 {
+        width: 296px;
+        height: 166px;
+        border-radius: 13px 13px 10px 10px;
+        background-image: url(https://townsquare.media/site/295/files/2013/07/Megaforce.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89);
+        background-position: center;
+        background-size: cover; }
       .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 {
         display: flex; }
         .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 div {
@@ -893,8 +900,11 @@
     align-items: center;
     margin-bottom: 5px; }
   /*---------------------------------------------------media querie zombiedaddy------------------*/
-  .apredizajezombie {
+  .aprendemain {
     margin-bottom: 900px; }
+  .apredizajezombie {
+    display: flex;
+    flex-direction: column; }
   .divisionzombie {
     display: flex;
     flex-direction: column;
@@ -908,9 +918,9 @@
     margin-bottom: 20px; }
   .acordeon {
     width: 70%; }
-  /* .footer-basic{
-        z-index: 2;
-    } */
+  .list-inline {
+    z-index: 1; }
+  /*-----------------------------fin zombiedaddy------------------*/
   .enlacesmusicales div {
     display: flex;
     flex-direction: column; }

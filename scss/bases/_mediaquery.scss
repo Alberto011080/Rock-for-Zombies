@@ -311,11 +311,14 @@
     }
 /*---------------------------------------------------media querie zombiedaddy------------------*/
 
+.aprendemain{
+    margin-bottom: 900px;
+}
+.apredizajezombie{
+    display: flex;
+    flex-direction: column;
 
-    .apredizajezombie{
-        margin-bottom: 900px;
-    }
-
+}
     .divisionzombie{
         display: flex;
         flex-direction: column;
@@ -329,13 +332,16 @@
         justify-content: center;
         margin-bottom: 20px
     }
+
+
+
     .acordeon{
         width: 70%;
     }
-    /* .footer-basic{
-        z-index: 2;
-    } */
-    
+    .list-inline{
+        z-index: 1;
+    } 
+/*-----------------------------fin zombiedaddy------------------*/    
     .enlacesmusicales div{
         display: flex;
         flex-direction: column;
