@@ -452,6 +452,10 @@
         background-image: url(https://townsquare.media/site/295/files/2013/07/Megaforce.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89);
         background-position: center;
         background-size: cover; }
+        .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0402 h3 {
+          padding: 50px;
+          color: white;
+          text-align: center; }
       .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 {
         display: flex; }
         .aprendizajezombie .divisionzombie .tarjeta02 .tarjeta0102 div {
