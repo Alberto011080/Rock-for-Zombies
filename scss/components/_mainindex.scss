@@ -17,18 +17,25 @@
             font-size: 80px; 
         }
         .herocaja{
+            
             p{
                 margin-bottom: 40px;
                 font-size: 20px;
-              
+                transition-duration: 2s;
+                &:hover{
+                    transform: translateY(20px);                
+                }       
             }
-
             a{
                 text-decoration: none;
                 background-color: rgba(238, 162, 127, 0.685);
                 border-radius: 20px;
                 color: black;
                 font-size: 20px;
+                
+                
+
+               
             }
         
         }
