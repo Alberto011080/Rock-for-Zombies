@@ -116,7 +116,7 @@
   height: 60vh; }
 
 .hero {
-  background-image: url(../img/RockEsp_big-1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.301)), url(../img/RockEsp_big-1.jpg);
   height: 90vh;
   background-size: cover;
   background-position: center;
